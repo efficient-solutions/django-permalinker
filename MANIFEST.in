@@ -1,3 +1,4 @@
 include LICENSE
 include README.md
+recursive-include img *
 global-exclude .DS_Store
