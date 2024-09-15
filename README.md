@@ -111,17 +111,17 @@ You will be redirected to `https://example.com`.
 ### 1. Admin: List Links View
 View all the existing links in the Django admin.
 
-![Admin: List Links View](img/admin-list-view.png)
+![](https://raw.githubusercontent.com/efficient-solutions/django-permalinker/0.1.0/img/admin-list-view.png)
 
 ### 2. Admin: Add New Link View
 Create a new link by providing a name, destination URL, and description.
 
-![Admin: Add New Link View](img/admin-add-view.png)
+![](https://raw.githubusercontent.com/efficient-solutions/django-permalinker/0.1.0/img/admin-add-view.png)
 
 ### 3. Admin: Edit Existing Link View
 Edit an existing link’s details or delete it.
 
-![Admin: Edit Existing Link View](img/admin-edit-view.png)
+![](https://raw.githubusercontent.com/efficient-solutions/django-permalinker/0.1.0/img/admin-edit-view.png)
 
 ## License
 
