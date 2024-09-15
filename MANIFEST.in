@@ -1,4 +1,4 @@
 include LICENSE
 include README.md
-recursive-include img *
+recursive-include django_permalinker *
 global-exclude .DS_Store

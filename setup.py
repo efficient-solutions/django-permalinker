@@ -2,7 +2,7 @@
 
 """setup.py: distutils/setuptools install script."""
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 REQUIRES = [
     "Django>=4,<6",
@@ -16,17 +16,18 @@ except FileNotFoundError:
 
 setup(
     name="django-permalinker",
-    version="0.1.0",
+    version="0.1.1",
     author="Efficient Solutions LLC",
     author_email="contact@efficient.solutions",
     description="Django application to create, manage, and redirect permanent links",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     url="https://github.com/efficient-solutions/django-permalinker",
-    packages=["django_permalinker"],
+    packages=find_packages(include=["django_permalinker", "django_permalinker.*"]),
     license="MIT",
     install_requires=REQUIRES,
     python_requires=">= 3.10",
+    include_package_data=True,
     keywords=[
         "Django", "Permanent links", "Permalinks", "URL Shortener"
     ],
